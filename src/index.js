@@ -2,15 +2,26 @@ import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import CounterApp from "./counter";
 import MessageApp from "./message";
+import HelloWorldApp from "./hello-world";
+
+const Title = ({ children }) => (
+  <Fragment>
+    <hr />
+    <h1 style={{ color: "darkblue" }}>
+      --
+      {children}
+      --
+    </h1>
+  </Fragment>
+);
 
 const App = () => (
   <Fragment>
-    <h1>Hello World</h1>
+    <Title>Hello World Demo</Title>
+    <HelloWorldApp />
+    <Title>Message Demo</Title>
     <MessageApp />
-    <h1>Message</h1>
-    <MessageApp />
-    <hr />
-    <h1>Counter</h1>
+    <Title>Counter Demo</Title>
     <CounterApp />
   </Fragment>
 );
