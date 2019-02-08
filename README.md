@@ -1,3 +1,10 @@
+# UniProt All Dev Talk 08-02-2019
+
+- The source code for each of the demo applications that was written during the presentation are in `src`
+- The slides are at `An Introduction to React - slides.pdf`
+
+# Create React App Information
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
